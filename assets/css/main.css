@@ -1,0 +1,5 @@
+@import './var.css';
+
+aside, main {
+  min-height: 100vh;
+}
