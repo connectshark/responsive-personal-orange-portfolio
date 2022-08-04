@@ -4,15 +4,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./assets/css/main.css">
+  <script defer src="./assets/js/menuHandler.js"></script>
   <title>Orange Portfolio</title>
 </head>
 <body>
   <div id="app">
-    <aside></aside>
-    <main></main>
+    <aside class="aside">
+      <span class="close">
+        <i class='bx bx-lg bx-x'></i>
+      </span>
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>SERVICES</li>
+        <li>WORKS</li>
+        <li>CONTACTME</li>
+      </ul>
+    </aside>
+    <main>
+      <header class="header">
+        <span class="menu">
+          <i class='bx bx-sm bx-menu'></i>
+        </span>
+        <h1>Harris</h1>
+      </header>
+      <section class="hero">
+        <div class="hero-img"></div>
+        <h1>Harris Willian</h1>
+        <p>Frontend Developer</p>
+        <ul>
+          <li>
+            <i class='bx bx-sm bxl-linkedin'></i>
+          </li>
+          <li>
+            <i class='bx bx-sm bxl-github'></i>
+          </li>
+          <li>
+            <i class='bx bx-sm bx-code-alt'></i>
+          </li>
+          <li>
+            <i class='bx bx-sm bxl-telegram'></i>
+          </li>
+        </ul>
+        <button>Download Resume</button>
+      </section>
+      <section>
+        <h3>My intro</h3>
+        <h2>About Me</h2>
+        <p>Hi,I'm a frontend developer,passionate about creating and developing web interfaces.I have many years of experience in this area of work, with multiple quality projects.</p>
+        <figure>
+          <img src="./assets/img/about.png" alt="about">
+        </figure>
+      </section>
+    </main>
   </div>
 </body>
 </html>

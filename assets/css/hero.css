@@ -1,0 +1,54 @@
+.hero {
+  padding: 4rem 0 0;
+  text-align: center;
+}
+.hero-img{
+  width: 180px;
+  height: 180px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  background-image: url('../img/perfil.png');
+  background-position: center bottom;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  margin: 0 auto 1rem;
+}
+.hero h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.hero p {
+  color: var(--dark-color);
+  margin-bottom: 3rem;
+}
+.hero ul {
+  margin-bottom: 3rem;
+}
+.hero ul li {
+  display: inline-block;
+  width: 2.5rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin: 0 .5rem;
+  cursor: pointer;
+}
+.hero ul li .bx {
+  line-height: 2.5rem;
+  color: #fff;
+}
+.hero button{
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: .5rem;
+  text-align: center;
+  display: block;
+  width: min(90%, 500px);
+  margin: auto;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 3;
+  font-weight: bold;
+  cursor: pointer;
+}
