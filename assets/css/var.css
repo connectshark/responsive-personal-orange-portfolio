@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #e65100;
+  --primary-opacity-color: #e6510088;
   --dark-color: #ac1900;
   --content-color: #6e6e6e;
   --font-family: 'Roboto Mono', monospace;
