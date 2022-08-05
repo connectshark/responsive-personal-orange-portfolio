@@ -1,0 +1,70 @@
+
+.skills h3,
+.skills h2 {
+  text-align: center;
+}
+.skills h3 {
+  margin-bottom: 1rem;
+}
+.skills h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.skills-container {
+  width: 80%;
+  margin: auto;
+}
+.skills-container .skills-group {
+  width: 100%;
+}
+.skills-container .skills-group h4 {
+  color: var(--dark-color);
+  text-align: left;
+}
+.skills-container .skills-group ul {
+  margin: 0 0 1rem 1rem;
+}
+.skills-container .skills-group ul li {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.skills-container .skills-group ul li p{
+  color: var(--content-color);
+}
+.skills-container .skills-group ul li::before {
+  content: '';
+  position: absolute;
+  height: .3rem;
+  background-color: var(--dark-color);
+  bottom: .3rem;
+  left: 0;
+  border-radius: 999rem;
+}
+.percent-60::before {
+  width: 60%;
+}
+.percent-70::before {
+  width: 70%;
+}
+.percent-80::before {
+  width: 80%;
+}
+.percent-90::before {
+  width: 90%;
+}
+
+@media screen and (min-width: 1024px) {
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    width: min(900px, 90%);
+  }
+  .skills-container .skills-group{
+    width: 45%;
+  }
+}

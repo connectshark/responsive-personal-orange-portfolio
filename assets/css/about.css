@@ -11,10 +11,6 @@
   font-weight: bold;
   margin-bottom: 2rem;
 }
-
-.about .intro-container {
-  margin-bottom: 4rem;
-}
 .about .intro-container .person p {
   width: min(400px, 90%);
   margin: auto;

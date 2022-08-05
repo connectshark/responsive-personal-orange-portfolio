@@ -1,0 +1,63 @@
+
+.education h3,
+.education h2 {
+  text-align: center;
+}
+.education h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.education .year {
+  width: min(450px, 80%);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.education .year div {
+  width: 42%;
+  margin-bottom: 1rem;
+}
+.education .year div h4 {
+  font-size: 1.2rem;
+}
+.education .year div p {
+  color: var(--content-color);
+}
+.education .year div:first-child {
+  text-align: right;
+}
+.education .year::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: radial-gradient(closest-side, var(--primary-color) 70%, white 70%, white 90%, var(--primary-color) 90%);
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+.education .year::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 90%;
+  z-index: -1;
+  background-color: var(--primary-color);
+  border-radius: 999rem;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .education .year {
+    width: min(700px, 80%);
+    padding: .5rem 0;
+  }
+}

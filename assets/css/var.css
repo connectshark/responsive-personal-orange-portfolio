@@ -3,6 +3,7 @@
 :root {
   --primary-color: #e65100;
   --dark-color: #ac1900;
+  --content-color: #6e6e6e;
   --font-family: 'Roboto Mono', monospace;
   --lg-size: 1024px;
 }

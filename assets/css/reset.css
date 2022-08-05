@@ -10,3 +10,7 @@ img {
   vertical-align: middle;
   width: max-content;
 }
+
+section {
+  margin-bottom: 4rem;
+}
