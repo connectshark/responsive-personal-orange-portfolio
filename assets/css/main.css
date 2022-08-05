@@ -78,7 +78,7 @@
   line-height: 4;
 }
 
-@media (hover) {
+@media (hover: hover) {
   .portfolio .portfolio-container .portfolio-item .content {
     transform: translateY(100%);
   }
