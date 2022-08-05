@@ -1,0 +1,68 @@
+
+.services {
+  width: min(900px, 90%);
+  margin: 0 auto 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.service-title {
+  text-align: center;
+  grid-column: span 2;
+}
+
+.services h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.services .service-item {
+  grid-column: span 2;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+.services .service-item .icon {
+  background-color: var(--primary-color);
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  transition: background-color .3s ease-in-out;
+}
+.services .service-item h4 {
+  color: var(--dark-color);
+  font-weight: bold;
+  transition: color .3s ease-in-out;
+}
+.services .service-item p {
+  transition: color .3s ease-in-out;
+}
+.services .service-item .icon .bx {
+  color: #fff;
+  line-height: 50px;
+  transition: color .3s ease-in-out;
+}
+
+.services .service-item:hover {
+  background-color: var(--primary-color);
+}
+.services .service-item:hover .icon {
+  background-color: #fff;
+}
+.services .service-item:hover .icon .bx {
+  color: var(--primary-color);
+}
+.services .service-item:hover  h4,
+.services .service-item:hover  p {
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .services .service-item {
+    grid-column: auto;
+  }
+}
