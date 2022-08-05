@@ -1,0 +1,77 @@
+
+.about {
+  text-align: center;
+}
+.about h3 {
+  margin-bottom: 1rem;
+}
+.about h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about .intro-container {
+  margin-bottom: 4rem;
+}
+.about .intro-container .person p {
+  width: min(400px, 90%);
+  margin: auto;
+  line-height: 1.5;
+  letter-spacing: .05rem;
+  margin-bottom: 2rem;
+}
+.about .intro-container .person figure {
+  width: min(300px, 80%);
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+.about .intro-container .person figure img {
+  width: 100%;
+}
+.about .intro-container .info {
+  width: 80%;
+  margin: auto;
+}
+.about .intro-container .info h3 {
+  color: var(--dark-color);
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+.about .intro-container .info .bx {
+  color: var(--dark-color);
+  margin: 0 2rem;
+}
+.about .intro-container .info .info-main {
+  margin-bottom: 2rem;
+}
+.about .intro-container .info .info-main li,
+.about .intro-container .info .info-sub li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .about .intro-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .intro-container .person,
+  .about .intro-container .info{
+    width: 50%;
+  }
+  .about .intro-container .person p{
+    text-align: left;
+  }
+}
