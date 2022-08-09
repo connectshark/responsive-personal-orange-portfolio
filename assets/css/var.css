@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #e65100;
+  --primary-color: #f4511e;
   --primary-opacity-color: #e6510088;
-  --dark-color: #ac1900;
+  --dark-color: #870000;
   --content-color: #6e6e6e;
   --font-family: 'Roboto Mono', monospace;
   --lg-size: 1024px;
