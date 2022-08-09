@@ -23,7 +23,6 @@
   box-sizing: border-box;
 }
 .contact form label {
-  display: block;
   margin-bottom: 1rem;
 }
 .contact form label {
@@ -85,6 +84,14 @@
     display: inline-block;
     vertical-align: top;
     margin-bottom: 0;
+  }
+  .contact form .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact form .row label {
+    width: 48%;
   }
   .contact .list {
     display: inline-block;
