@@ -7,7 +7,6 @@
   color: #222;
   font-size: 1rem;
   font-family: var(--font-family);
-  letter-spacing: -.05rem;
 }
 
 img {
@@ -17,6 +16,7 @@ img {
 
 section {
   margin-bottom: 4rem;
+  scroll-margin: 4.5rem 0 0 0;
 }
 
 input[type=text],

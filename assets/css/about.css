@@ -66,6 +66,7 @@
   .about .intro-container .person,
   .about .intro-container .info{
     width: 50%;
+    margin: 0;
   }
   .about .intro-container .person p{
     text-align: left;

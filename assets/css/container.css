@@ -13,6 +13,7 @@ aside.aside, main {
 main {
   width: 100%;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 aside.aside {
@@ -33,10 +34,16 @@ aside.aside .close {
   top: 2rem;
 }
 
-aside.aside ul li {
-  width: 250px;
+aside.aside ul a {
+  display: block;
   line-height: 2;
   font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  width: 250px;
+}
+aside.aside ul a:hover {
+  text-decoration: underline;
 }
 
 aside.active {
@@ -50,7 +57,7 @@ aside.active {
   aside.aside .close {
     display: none;
   }
-  aside.aside ul li {
+  aside.aside ul a {
     width: auto;
   }
 }
