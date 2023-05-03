@@ -1,0 +1,12 @@
+{
+  "name": "shopee-short-link",
+  "version": "2.1.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "devDependencies": {
+    "vite": "^4.3.4"
+  }
+}
